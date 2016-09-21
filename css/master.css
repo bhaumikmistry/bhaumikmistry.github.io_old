@@ -1,0 +1,86 @@
+html{
+
+	background: url(../images/background2.jpeg) white ;
+	max-height: 400px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    /*background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+/*	-webkit-background: blur(5px);
+	-moz-background: blur(5px);
+  	-o-background: blur(5px);
+  	-ms-background: blur(5px);
+  	back: blur(5px);
+*/
+	font-family: 'Helvetica Neue' , sans-serif;
+}
+
+.main-header {
+	width: 700px;
+	height: 340px;
+	background: rgba(0,0,0,0);
+	padding: 40px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 250px;
+	text-align: center;
+}
+
+.prof-box {
+	width: 700px;
+	height: 700px;
+	background: rgba(200,200,200,0.3);
+	padding: 40px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.prof-pic{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.social-icons a {
+	font-size: 30px;
+	color: black;
+}
+
+.line-break{
+	width : 400px;
+	border-top: 1px solid black;
+	margin: 0 auto;
+}
+
+.footer-page{
+	font-size: 10px;
+	color: gray;
+}
+
+h2{
+	font-weight: 300;
+	letter-spacing: 2;
+	font-size: 40;
+	color: white;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40;
+
+}
+
+p{
+	font-weight: 400;
+	letter-spacing: 1;
+}
