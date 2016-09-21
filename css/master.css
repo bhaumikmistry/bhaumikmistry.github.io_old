@@ -1,7 +1,8 @@
 html{
 
-	background: url(../images/background2.jpeg) white ;
-	max-height: 400px;
+	background: url(../images/background2.jpeg);
+	background-color: rgba(210,210,210,0.5);
+	max-height: 100%;
     /* Set background image to fixed (don't scroll along with the page) */
     /*background-attachment: fixed;
     /* Center the background image */
@@ -11,7 +12,7 @@ html{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100% 100%;
 
 /*	-webkit-background: blur(5px);
 	-moz-background: blur(5px);
@@ -23,8 +24,8 @@ html{
 }
 
 .main-header {
-	width: 700px;
-	height: 340px;
+	width: auto;
+	height: 60%;
 	background: rgba(0,0,0,0);
 	padding: 40px;
 	color: black;
@@ -40,7 +41,7 @@ html{
 	padding: 40px;
 	color: black;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: auto;
 	text-align: center;
 }
 
