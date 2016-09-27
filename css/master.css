@@ -120,15 +120,43 @@ a:-webkit-any-link {
 
 }
 
+.prof-boxinside{
+	width: 600px;
+	height: 1000px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: center;
+
+}
+
 .prof-pic{
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 }
 
+.draw-pic{
+	border-radius: 10%;
+	width: 196px;
+	height: 196px;
+}
+
+.formatdraw-pic{
+	width: 1000px;
+	height: 500px;
+	padding: 15px;
+	border-radius: 10%;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: center;
+}
+
 .social-icons a {
-	font-size: 30px;
+	font-size: 110px;
 	color: black;
+	text-align: center;
+
 }
 
 .line-break{
@@ -175,6 +203,8 @@ a:-webkit-any-link {
 	color: black;
 	margin: 0 auto;
 	margin-top: 5px;
+	text-align: center;
+
 }
 
 .footer-page{
