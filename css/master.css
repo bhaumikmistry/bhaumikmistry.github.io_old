@@ -99,7 +99,7 @@ a:-webkit-any-link {
 
 .main-header {
 	width: auto;
-	height: 60%;
+	height: 270px;
 	background: rgba(0,0,0,0);
 	padding: 40px;
 	color: black;
@@ -261,6 +261,14 @@ h3{
 	font-weight: 100;
 	letter-spacing: 2;
 	font-size: 15;
+}
+
+h5{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 15;
+	color: white;
+
 }
 
 h4{
