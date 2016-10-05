@@ -99,12 +99,12 @@ a:-webkit-any-link {
 
 .main-header {
 	width: auto;
-	height: 270px;
+	height: 350%;
 	background: rgba(0,0,0,0);
 	padding: 40px;
 	color: black;
 	margin: 0 auto;
-	margin-top: 250px;
+	margin-top: 25%;
 	text-align: center;
 }
 
