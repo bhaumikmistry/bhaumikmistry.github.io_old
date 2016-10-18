@@ -99,9 +99,9 @@ a:-webkit-any-link {
 
 .main-header {
 	width: auto;
-	height: 35%;
+	height: 75%;
 	background: rgba(0,0,0,0);
-	padding: 40px;
+	/*padding: 10%;*/
 	color: black;
 	margin: 0 auto;
 	margin-top: 25%;
