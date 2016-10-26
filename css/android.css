@@ -1,0 +1,52 @@
+html{
+	display: block;
+	background: url(../images/background.jpg);
+	max-height: 100%;
+    background-attachment: fixed;
+  	z-index: 1;
+
+    -webkit-background-size: cover;
+   
+
+}
+
+h1{
+	font-weight: 300;
+	letter-spacing: 2;
+	font-size: 50;
+}
+
+h2{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 15;
+	color: black;
+
+}
+
+h3{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 18;
+	color: black;
+}
+
+h4{
+	font-weight: 300;
+	letter-spacing: 3;
+	font-size: 30;
+	color: black;
+}
+
+h5{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+p{
+	font-weight: 400;
+	letter-spacing: 1;
+}
