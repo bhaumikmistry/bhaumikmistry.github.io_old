@@ -1,0 +1,289 @@
+html{
+	display: block;
+	/*background: url(../images/background.jpg);*/
+	max-height: 100%;
+    background-attachment: fixed;
+  	z-index: 1;
+
+    -webkit-background-size: cover;
+   
+
+}
+
+.div_1 {
+	position: absolute;
+	top: 48%;
+	left: 38%;
+}
+
+
+.background_1{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_book.jpg);
+	background-size: 100% 100%;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 18;
+	color: black;
+}
+
+.div_2 {
+	position: absolute;
+	top: 170%;
+	left: 10%;
+}
+
+
+.background_2{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_rose.jpg);
+	background-size: 100% 100%;
+}
+
+.div_3 {
+	position: absolute;
+	top: 228%;
+	left: 75%;
+	right: 3%;
+}
+
+
+.background_3{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_cloud.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_4 {
+	position: absolute;
+	top: 360%;
+	left: 10%;
+	right: 50%;
+}
+
+
+.background_4{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_city.jpg);
+	background-size: 100% 100%;
+}
+
+.div_5 {
+	position: absolute;
+	top: 415%;
+	left: 70%;
+	right: 5%;
+}
+
+
+.background_5{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_darkness.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_6 {
+	position: absolute;
+	top: 550%;
+	left: 5%;
+	right: 80%;
+}
+
+
+.background_6{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_allyouneed.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_7 {
+	position: absolute;
+	top: 615%;
+	left: 40%;
+	right: 47%;
+}
+
+
+.background_7{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_space.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_8 {
+	position: absolute;
+	top: 715%;
+	left: 5%;
+	right: 75%;
+}
+
+
+.background_8{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_house.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_9 {
+	position: absolute;
+	top: 825%;
+	left: 5%;
+	right: 75%;
+}
+
+
+.background_9{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_travel.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_10 {
+	position: absolute;
+	top: 950%;
+	left: 5%;
+	right: 65%;
+}
+
+
+.background_10{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_owner.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_11 {
+	position: absolute;
+	top: 1000%;
+	left: 2%;
+	right: 40%;
+}
+
+
+.background_11{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_support.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_12 {
+	position: absolute;
+	top: 1155%;
+	left: 5%;
+	right: 75%;
+}
+
+
+.background_12{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_marry.jpeg);
+	background-size: 100% 100%;
+}
+
+.div_13 {
+	position: absolute;
+	top: 1170%;
+	left: 25%;
+	right: 25%;
+}
+
+
+.background_13{
+	width: 100%;
+	height: 100%;
+	background: url(../image_marry/background_ring.jpeg);
+	background-size: 100% 100%;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 18;
+	color: black;
+}
+
+h2{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 13;
+	color: black;
+}
+
+h3{
+	font-weight: 200;
+	letter-spacing: 2;
+	font-size: 13;	
+	color: white;
+}
+
+h4{
+	font-weight: 100;
+	letter-spacing: 4;
+	font-size: 50;	
+	color: black;
+}
+
+h5{
+	font-weight: 400;
+	letter-spacing: 6;
+	font-size: 100;	
+	color: black;
+}
+
+
+/*
+h1{
+	font-weight: 300;
+	letter-spacing: 2;
+	font-size: 50;
+}
+
+h2{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 15;
+	color: black;
+
+}
+
+h3{
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 18;
+	color: black;
+}
+
+h4{
+	font-weight: 300;
+	letter-spacing: 3;
+	font-size: 30;
+	color: black;
+}
+
+h5{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+p{
+	font-weight: 400;
+	letter-spacing: 1;
+}*/
