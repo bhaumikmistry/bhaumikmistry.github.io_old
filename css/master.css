@@ -1,18 +1,14 @@
 html{
 
-	background: url(../images/background3.jpg);
 	background-color: rgba(210,210,210,0.5);
 	max-height: 100%;
+	max-width: 100%;
     /* Set background image to fixed (don't scroll along with the page) */
     /*background-attachment: fixed;*/
     /* Center the background image 
     background-position: center;
     /* Set the background image to no repeat */
-    background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100% 100%;
+    
 
 /*	-webkit-background: blur(5px);
 	-moz-background: blur(5px);
@@ -98,13 +94,26 @@ a:-webkit-any-link {
 }
 
 .main-header {
-	width: auto;
-	height: 75%;
-	background: rgba(0,0,0,0);
+	max-width: 1500px;
+	width: 100%;
+	height: 100%;
+	background: url(../images/background3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position:center;
+	background-margin:0 auto;
+	/*left:-50%;*/
+	/*margin-left: -50%;*/
+
+	/*background: rgba(0,0,0,0);*/
 	/*padding: 10%;*/
 	color: black;
-	margin: 0 auto;
-	margin-top: 25%;
+	/*margin: 0 auto;*/
+	/*margin-top: 25%;*/
 	text-align: center;
 }
 
@@ -180,7 +189,7 @@ a:-webkit-any-link {
 
 .work-box{
 	width: 100%;
-	height: 1400px;
+	height: 1300px;
 	background: rgba(200,200,200,0.3);
 	padding: 5px;
 	color: black;
@@ -192,10 +201,25 @@ a:-webkit-any-link {
 	width: 100%;
 	height: 2000px;
 	background: rgba(200,200,200,0.3);
-	padding: 15px;
+	padding: 5px;
 	color: black;
 	margin: 0 auto;
 	margin-top: 5px;
+}
+
+.ex-box-left{
+	width:300px; 
+	height: 250px;
+	float:left;
+}
+.ex-box-center{
+	height:220px;
+	float:center;
+}
+.ex-box-right{
+	width:300px; 
+	height:250px; 
+	float:right;
 }
 
 .skill-box{
@@ -232,11 +256,18 @@ a:-webkit-any-link {
 }
 
 .rowRepeate{
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 	height: 80%;
 	margin: 0 auto;
 	text-align: center;
+}
 
+.rowCenter{
+	max-width:600px;
+	width: 100% ;
+	/*height: 150px;*/
+	float:center;
 }
 
 
@@ -278,9 +309,9 @@ h4{
 }
 
 h2{
-	font-weight: 300;
+	font-weight: 100;
 	letter-spacing: 2;
-	font-size: 40;
+	font-size: 30;
 	color: white;
 }
 
@@ -298,4 +329,101 @@ h1{
 p{
 	font-weight: 400;
 	letter-spacing: 1;
+}
+
+
+/*------------------------------------------------------*/
+
+@media only screen and (max-width: 430px){
+
+	.menu {
+    display: none;
+	}
+
+	h2{
+	padding-left: 10%;
+	padding-right: 10%;
+	font-weight: 100;
+	letter-spacing: 2;
+	font-size: 30;
+	color: white;
+	}
+
+	h5{
+		font-weight: 100;
+		letter-spacing: 2;
+		font-size: 15;
+		color: white;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.work-box{
+	width: 100%;
+	height: 1600px;
+	background: rgba(200,200,200,0.3);
+	padding: 5px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 5px;
+	}	
+
+	.rowRepeate{
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	}
+
+	.ex-box{
+	width: 100%;
+	height: 3600px;
+	background: rgba(200,200,200,0.3);
+	padding: 5px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 5px;
+	}
+
+	.ex-box-left{
+	width:100%; 
+	height: 250px;
+	float:center;
+	}
+
+	.ex-box-center{
+	height:220px;
+	float:center;
+	}
+
+	.ex-box-right{
+	width:100%; 
+	height:250px; 
+	float:center;
+	}
+
+
+	.skill-box{
+	width: 100%;
+	height: 550px;
+	background: rgba(200,200,200,0.3);
+	padding: 15px;
+	color: black;
+	margin: auto auto;
+	margin-top: 5px;
+	text-align: center;
+	}
+
+	.skill-pic{
+	border-radius: 5%;
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
 }
